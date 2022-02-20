@@ -1,0 +1,57 @@
+@media (max-width:1600px) {
+    .logo{
+        margin-left: 10rem;
+    }
+    .menu{
+        margin-right: 10rem;
+    }
+}
+@media (max-width:1000px) {
+    .logo{
+        margin-left: 5rem;
+    }
+    .menu{
+        margin-right: 5rem;
+    }
+}
+@media (max-width:700px) {
+    body{
+        overflow-y: hidden;
+    }
+    .logo{
+        margin-left: 2rem;
+    }
+    .menu{
+        margin-right: 2rem;
+    }
+    .links{
+        display: flex;
+        position: absolute;
+        transform: translateY(8rem);
+        background-color: rgb(233, 233, 233);
+        padding: 1rem .1rem;
+        right: 0rem;
+        border-radius: 1rem 0rem 0rem 1rem;
+        transition: all ease .3s;
+
+        overflow: hidden;
+        height: 0rem;
+        width: 0rem;
+    }
+    .links.show{
+        height: 12rem;
+        width: 7rem;
+    }
+    .links ul{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .links ul li{
+        margin-top: .5rem;
+    }
+    .links ul li a {
+        user-select: none;
+    }
+
+}
