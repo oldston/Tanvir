@@ -41,6 +41,7 @@
     .links.show{
         height: 12rem;
         width: 7rem;
+        margin-top: 2rem;
     }
     .links ul{
         position: relative;

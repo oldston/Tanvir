@@ -10,7 +10,11 @@
 }
 @media (max-width:700px) {
     .loginSection{
-        margin-left: 2rem;
+        margin-left: 0rem;
         background-color: transparent;
+    }
+    .loginSection.Enable{
+        height: 20rem;
+        width: 16rem;
     }
 }
